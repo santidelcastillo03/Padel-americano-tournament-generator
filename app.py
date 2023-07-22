@@ -47,7 +47,7 @@ def show_points(participant_list):
 def add_match_points(participant_list):
     while True:
         if len(participant_list) == 0:
-            print('There are not participants')
+            print('There are no participants')
             break
         else:
             show_points(participant_list)
